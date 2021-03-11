@@ -1,0 +1,36 @@
+/*
+  Theme Name: myfirsttheme
+  Text Domain: myfirsttheme
+  Version: 1.0
+  Description: Oleg's first theme
+  Tags: oleg
+  Author: Oleg Vartanov
+  Author URI: https://vk.com/olegvarta
+*/
+
+body {
+  background: #252525;
+  color: grey;
+}
+
+header {
+  background: black;
+  color: grey;
+  height: 100px;
+}
+
+a:link,
+a:visited {
+    color: white;
+}
+
+.card {
+  background-color: #404040!important;
+  color: grey;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit:contain;
+}
